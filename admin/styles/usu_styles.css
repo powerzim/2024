@@ -1,0 +1,47 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cor de fundo do corpo da página */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Cor de fundo da área de conteúdo */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.user-info {
+    background-color: #f9f9f9; /* Cor de fundo das informações do usuário */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.user-info p {
+    margin-bottom: 5px;
+    color: #333333; /* Cor do texto */
+}
+
+.buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #007bff; /* Cor de fundo dos botões */
+    color: #ffffff; /* Cor do texto dos botões */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+.buttons a:hover {
+    background-color: #0056b3; /* Cor de fundo dos botões ao passar o mouse */
+}
